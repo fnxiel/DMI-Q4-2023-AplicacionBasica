@@ -3,8 +3,9 @@ import { StatusBar } from 'expo-status-bar';
 import { View } from 'react-native';
 //import Listado from './components/Listado'
 //import Grid from './components/Grid'
-import ModalPersonalizada from './components/Modal';
+//import ModalPersonalizada from './components/Modal';
 import { NavigationContainer } from '@react-navigation/native';
+import Tabs from './components/Tabs';
 import styles from './styles/styles'
 
 export default function App() {
@@ -14,7 +15,8 @@ export default function App() {
     {/* <View style={styles.container}> */}
       {/*<Grid />*/}
       {/*<Listado/>*/}
-      <ModalPersonalizada />
+      {/* <ModalPersonalizada /> */}
+      <Tabs></Tabs>
       <StatusBar style="auto" />
     {/* </View> */}
     </NavigationContainer>
